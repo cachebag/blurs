@@ -7,6 +7,9 @@ A tiny Bluetooth applet for Wayland.
 [![license](https://img.shields.io/crates/l/blurs)](LICENSE)
 ![binary](https://img.shields.io/badge/binary-1.4M-blue)
 
+<img width="1094" height="291" alt="image" src="https://github.com/user-attachments/assets/3d68f3a4-5439-453c-a62d-ffe093b69c05" />
+
+
 ## Install
 
 Arch:
@@ -24,7 +27,8 @@ cargo install blurs
 
 Or from source:
 
-```sh
+```sh![Uploading image.png…]()
+
 cargo build --release
 install -m755 target/release/blurs ~/.local/bin/blurs
 ```
@@ -73,7 +77,7 @@ Hyprland's IPC socket; it falls back to a fixed corner where that's absent.
 ## Theming
 
 Colors are read from `~/.cache/wal/colors.sh` at startup and emitted as GTK
-`@define-color` values, so the applet re-tints with the wallpaper for free.
+`@define-color` values, so this works quite well with pywal setups.
 `colors.sh` is parsed instead of `colors.json` purely to keep a JSON parser out
 of the binary.
 
