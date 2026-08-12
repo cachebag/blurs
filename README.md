@@ -2,14 +2,17 @@
 
 A tiny Bluetooth applet for Wayland.
 
-![blurs](https://img.shields.io/badge/rust-2024-orange) ![size](https://img.shields.io/badge/binary-1.4M-blue)
+[![crates.io](https://img.shields.io/crates/v/blurs?logo=rust&color=orange)](https://crates.io/crates/blurs)
+[![AUR](https://img.shields.io/aur/version/blurs?logo=archlinux&logoColor=white)](https://aur.archlinux.org/packages/blurs)
+[![license](https://img.shields.io/crates/l/blurs)](LICENSE)
+![binary](https://img.shields.io/badge/binary-1.4M-blue)
 
 ## Install
 
 Arch:
 
 ```sh
-paru -S blurs
+paru -S blurs # or yay
 ```
 
 Anywhere else, with a Rust toolchain and the GTK4 development headers plus
