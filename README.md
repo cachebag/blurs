@@ -27,8 +27,7 @@ cargo install blurs
 
 Or from source:
 
-```sh![Uploading image.png…]()
-
+```sh!
 cargo build --release
 install -m755 target/release/blurs ~/.local/bin/blurs
 ```
